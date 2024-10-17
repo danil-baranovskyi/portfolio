@@ -2,14 +2,16 @@
 @import 'styles-mixins';
 
 .header {
-  @include main-container;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  background-color: var(--header-bg-color);
 
   &-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include main-container;
   }
 
   &-content {

@@ -1,8 +1,15 @@
 @import "styles-variables";
 
 :root {
+  --header-bg-color: #{$lavender-mist};
+
   --download-cv--bg-color: #{$twilight-navy};
   --download-cv--text-color: #{$lavender-mist};
 
-  --burger-line-color: #{$twilight-navy};
+  --burger-line-color--major: #{$twilight-navy};
+  --burger-line-color--minor: #{$lavender-mist};
+
+  .sidebar {
+    --sidebar-text-color: #{$lavender-mist};
+  }
 }

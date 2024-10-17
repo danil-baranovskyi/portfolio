@@ -6,17 +6,19 @@ interface SideBarProps {
   isActive: boolean;
 }
 
-const SideBar = ({isActive}: SideBarProps) => {
+const SideBar = ({ isActive }: SideBarProps) => {
   return (
-    <div className={classNames(styles['sidebar'], {[styles['sidebar--active']]: isActive})}>
-      <nav className="navigation">
+    <div className={classNames(styles['sidebar'], { [styles['sidebar--active']]: isActive }, 'sidebar')}>
+      <nav className={styles['navigation']}>
         <ul className={styles['navigation-list']}>
-          <li className="navigation__list-item"><a>About me</a></li>
-          <li className="navigation__list-item"><a>My works</a></li>
-          <li className="navigation__list-item"><a>Contact me</a></li>
+          <li className={styles['navigation-list-item']}><a>About me</a></li>
+          <li className={styles['navigation-list-item']}><a>My works</a></li>
+          <li className={styles['navigation-list-item']}><a>Contact me</a></li>
         </ul>
       </nav>
-      <CvBtn />
+      <div className={styles['cv-wrapper']}>
+        <CvBtn />
+      </div>
     </div>
   )
 }
