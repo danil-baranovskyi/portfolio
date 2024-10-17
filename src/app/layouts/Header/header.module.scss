@@ -2,8 +2,6 @@
 @import 'styles-mixins';
 
 .header {
-  --download-cv--bg-color: #{$twilight-navy};
-  --download-cv--text-color: #{$lavender-mist};
   @include main-container;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -27,10 +25,20 @@
   gap: 15px;
 }
 
-.download-cv {
-  background-color: var(--download-cv--bg-color);
-  color: var(--download-cv--text-color);
-  border: none;
-  padding: 7px 10px;
-  border-radius: 4px;
+.burger-wrapper {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .burger-wrapper {
+    display: block;
+  }
+
+  .cv-wrapper {
+    display: none;
+  }
+
+  .navigation {
+    display: none;
+  }
 }

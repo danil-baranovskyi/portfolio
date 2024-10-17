@@ -1,12 +1,15 @@
+import classNames from 'classnames';
 import styles from './header.module.scss';
+import CvBtn from './components/CvBtn';
+import Burger from './components/Burger';
 
 const Header = () => {
 	return (
-		<header className={styles.header}>
+		<header className={classNames(styles.header, 'header')}>
 			<div className={styles['header-container']}>
 				<div className="logo">&lt;DanBarans/&gt;</div>
 				<div className={styles['header-content']}>
-					<nav className="navigation">
+					<nav className={styles['navigation']}>
 						<ul className={styles['navigation-list']}>
 							<li className="navigation__list-item"><a>About me</a></li>
 							<li className="navigation__list-item"><a>My works</a></li>
@@ -14,7 +17,12 @@ const Header = () => {
 						</ul>
 					</nav>
 					{/* <ThemeSwitcher/> */}
-					<button className={styles['download-cv']}>Download cv</button>
+					<div className={styles['cv-wrapper']}>
+						<CvBtn />
+					</div>
+					<div className={styles['burger-wrapper']}>
+						<Burger />
+					</div>
 				</div>
 			</div>
 		</header>

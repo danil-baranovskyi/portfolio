@@ -1,0 +1,23 @@
+.burger {
+  &-btn {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  &-line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--burger-line-color);
+  }
+
+  .second {
+    width: 70%;
+  }
+}
