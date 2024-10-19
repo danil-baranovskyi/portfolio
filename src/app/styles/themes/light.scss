@@ -12,4 +12,11 @@
   .sidebar {
     --sidebar-text-color: #{$lavender-mist};
   }
+
+  .hero {
+    --hero-photo-outline-main-border--color: #{$twilight-navy};
+    --hero-photo-outline-second-border--color: #{$gainsboro-gray};
+
+    --hero-contact-me-btn--color: #{$twilight-navy};
+  }
 }

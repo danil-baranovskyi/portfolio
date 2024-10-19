@@ -1,8 +1,10 @@
+@import "styles-variables";
+
 .download-cv {
   background-color: var(--download-cv--bg-color);
   color: var(--download-cv--text-color);
   border: none;
   padding: 7px 10px;
-  border-radius: 4px;
+  border-radius: $buttons-main-border-radius;
 }
 

@@ -6,6 +6,7 @@
   position: sticky;
   top: 0;
   background-color: var(--header-bg-color);
+  z-index: 100;
 
   &-container {
     display: flex;
