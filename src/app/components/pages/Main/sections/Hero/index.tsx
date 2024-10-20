@@ -2,6 +2,7 @@ import classNames from "classnames";
 import styles from "./styles.module.scss";
 import Image, { getImageProps } from 'next/image'
 import LocationIcon from "../../../../../../../public/icons/location.svg";
+import PhotoFrame from "@/app/components/shared/PhotoFrame";
 
 const Hero = () => {
   return (
@@ -24,24 +25,34 @@ const Hero = () => {
           <button className={styles['contact-me']}>Contact Me</button>
         </div>
       </div>
-      <div className={styles["hero-img-wrapper"]}>
+      <PhotoFrame $viewportRange={{ min: 660 }}>
         <Image
           src="/images/hero-photo.jpg"
           width={470}
           height={470}
           alt="Picture of the author"
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "cover" }}
         />
-        <div className={styles["border"]}></div>
-      </div>
-      <div className={classNames(styles["hero-img-wrapper"], styles["hero-img-wrapper--mobile"])}>
-        <Image
-          src="/images/hero-photo--mobile.png"
-          width={300}
-          height={300}
-          alt="Picture of the author"
-          style={{ objectFit: "contain" }}
-        />
+      </PhotoFrame>
+      <div className={styles['img-wrapper--mobile']}>
+        <PhotoFrame
+          $viewportRange={{ max: 660 }}
+          $styles={{
+            marginBottom: 30,
+            marginLeft: 20,
+            marginRight: 20
+          }}
+          $maxWidth={300}
+          $maxHeight={300}
+        >
+          <Image
+            src="/images/hero-photo--mobile.png"
+            width={230}
+            height={230}
+            alt="Picture of the author"
+            style={{ objectFit: "contain" }}
+          />
+        </PhotoFrame>
       </div>
     </section>
   )
