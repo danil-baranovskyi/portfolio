@@ -1,13 +1,18 @@
 @import "styles-variables";
+@import "styles-mixins";
 
 .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 60px;
+  margin-bottom: 80px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include main-container;
+  }
 
   &-title {
-    font-size: clamp(1.5rem, 4.5vw, 2.5rem);
+    font-size: clamp($main-heading-font-size--min, 4.5vw, $main-heading-font-size--max);
     margin-bottom: 7px;
   }
 
@@ -58,10 +63,18 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 767px) {
+  .hero {
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 660px) {
   .hero {
     margin-top: 30px;
-    flex-direction: column-reverse;
+    &-container {
+      flex-direction: column-reverse;
+    }
 
     &-content {
       margin-right: 0;

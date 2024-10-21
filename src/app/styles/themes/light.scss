@@ -8,15 +8,21 @@
 
   --burger-line-color--major: #{$twilight-navy};
   --burger-line-color--minor: #{$lavender-mist};
+  
+  .photo-frame {
+    --hero-photo-outline-main-border--color: #{$twilight-navy};
+    --hero-photo-outline-second-border--color: #{$gainsboro-gray};
+  }
 
   .sidebar {
     --sidebar-text-color: #{$lavender-mist};
   }
 
   .hero {
-    --hero-photo-outline-main-border--color: #{$twilight-navy};
-    --hero-photo-outline-second-border--color: #{$gainsboro-gray};
-
     --hero-contact-me-btn--color: #{$twilight-navy};
+  }
+
+  .about {
+    --about-bg--color: #{$lavender-mist};
   }
 }

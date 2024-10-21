@@ -3,6 +3,7 @@
 import { ReactNode } from "react";
 import styles from "./styles.module.scss";
 import styled, { css } from "styled-components";
+import classNames from "classnames";
 
 interface IWrapperProps {
   $maxWidth?: number;
@@ -39,7 +40,7 @@ const ImgWrapper = styled.div<IWrapperProps>`
 
 const PhotoFrame = ({ children, ...wrapperProps }: IPhotoFrameProps) => {
   return (
-    <ImgWrapper {...wrapperProps} className={styles["img-wrapper"]} style={wrapperProps.$styles}>
+    <ImgWrapper {...wrapperProps} className={classNames(styles["img-wrapper"], "photo-frame")} style={wrapperProps.$styles}>
       {children}
       <div className={styles["border"]}></div>
     </ImgWrapper>
