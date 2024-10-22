@@ -1,5 +1,6 @@
 import About from "./sections/About";
 import Hero from "./sections/Hero"
+import Skills from "./sections/Skills";
 import styles from "./styles.module.scss";
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
     <div className={styles["main"]}>
       <Hero/>
       <About/>
+      <Skills/>
     </div>
   )
 }
