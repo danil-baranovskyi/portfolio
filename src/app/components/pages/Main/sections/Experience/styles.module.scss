@@ -1,0 +1,15 @@
+@import "styles-mixins";
+
+.experience {
+  width: 100%;
+  background-color: var(--experience-bg--color);
+  padding: 70px 0;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include main-container;
+  }
+}

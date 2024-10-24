@@ -1,0 +1,81 @@
+.exp-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 35px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 100%;
+
+  &:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+
+  &-company-logo {
+    a {
+      display: flex;
+      padding: 10px;
+      border: 2px solid var(--experience-company-logo-border--color);
+      border-radius: 50%;
+      width: 62px;
+      height: 62px;
+    }
+  }
+
+  &-content {
+    display: flex;
+    justify-content: center;
+
+    ul {
+      list-style: initial;
+    }
+
+    li {
+      margin: 0 auto;
+      max-width: 60%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .exp-card {
+    &-content {
+      li {
+        max-width: 80%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .exp-card {
+    padding: 25px;
+    &-header {
+      position: relative;
+    }
+
+    &-title {
+      left: 30%;
+      top: 18%;
+      position: absolute;
+    }
+
+    &-period {
+      left: 30%;
+      bottom: 18%;
+      position: absolute;
+    }
+  }
+}

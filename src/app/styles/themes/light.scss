@@ -25,4 +25,10 @@
   .about {
     --about-bg--color: #{$lavender-mist};
   }
+
+  .experience {
+    --experience-bg--color: #{$lavender-mist};
+    --experience-card-bg--color: #{white};
+    --experience-company-logo-border--color: #{$light-grey-mist};
+  }
 }

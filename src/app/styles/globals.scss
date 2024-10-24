@@ -8,3 +8,9 @@
     box-sizing: border-box;
   }
 }
+
+.exp-card-company-logo--devit {
+  svg {
+    transform: translateX(7px) translateY(-5px);
+  }
+}

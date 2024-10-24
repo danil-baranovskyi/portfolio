@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="logosandtypes_com" data-name="logosandtypes com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-1275.62" y1="432.1" x2="-1272.18" y2="427.35" gradientTransform="translate(30659 10381.36) scale(24 -24)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#25c5ff"/>
+      <stop offset=".45" stop-color="#0048ff"/>
+      <stop offset="1" stop-color="#c500f3"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-2" d="M0,0H150V150H0V0Z"/>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <g id="Artboard">
+        <g id="userway_logo" data-name="userway logo">
+          <path id="Combined-Shape" class="cls-1" d="M18.75,36.94c5.16-.03,9.36,4.13,9.39,9.28,0,.03,0,.07,0,.1h0v7.3h0v23.47c0,26.79,21.71,48.5,48.5,48.5s48.5-21.71,48.5-48.5h0v-23.99h0v-7.3c-.03-5.16,4.13-9.36,9.28-9.39,.03,0,.07,0,.1,0h4.69v40.68c0,34.56-28.02,62.58-62.58,62.58S14.06,111.66,14.06,77.1h0V36.94h4.69Zm2.09-22.42c16.1-.03,29.18,13,29.2,29.1,0,.03,0,.07,0,.1v33.38c0,14.69,11.91,26.6,26.6,26.6s26.6-11.91,26.6-26.6V43.72c-.03-16.1,13-29.18,29.1-29.2,.03,0,.07,0,.1,0h6.78v14.08h-6.78c-8.35,0-15.12,6.77-15.12,15.12v33.38c0,22.18-17.98,40.16-40.16,40.16h0c-22.28,.03-40.42-17.88-40.68-40.16V43.72c-.08-8.44-6.99-15.21-15.43-15.13-.07,0-.14,0-.21,0h-6.78V14.52h6.78Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
