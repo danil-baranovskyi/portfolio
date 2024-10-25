@@ -1,0 +1,38 @@
+.work-img {
+  background-color: var(--work-img-bg--color);
+  padding: 45px;
+
+  &-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 62.5%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .work-img {
+    &-container {
+      padding-bottom: 36.5%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .work-img {
+    &-container {
+      padding-bottom: 56.5%;
+    }
+  }
+}

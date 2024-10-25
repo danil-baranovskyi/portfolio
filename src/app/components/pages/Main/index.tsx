@@ -2,6 +2,7 @@ import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Hero from "./sections/Hero"
 import Skills from "./sections/Skills";
+import Work from "./sections/Work";
 import styles from "./styles.module.scss";
 
 const Main = () => {
@@ -11,6 +12,7 @@ const Main = () => {
       <About/>
       <Skills/>
       <Experience/>
+      <Work/>
     </div>
   )
 }

@@ -1,6 +1,8 @@
 @import "styles-variables";
 
 :root {
+  --text--color: #{$twilight-navy};
+
   --header-bg-color: #{$lavender-mist};
 
   --download-cv--bg-color: #{$twilight-navy};
@@ -8,7 +10,9 @@
 
   --burger-line-color--major: #{$twilight-navy};
   --burger-line-color--minor: #{$lavender-mist};
-  
+
+  --label-bg--color: #{$lavender-mist};
+
   .photo-frame {
     --hero-photo-outline-main-border--color: #{$twilight-navy};
     --hero-photo-outline-second-border--color: #{$gainsboro-gray};
@@ -30,5 +34,9 @@
     --experience-bg--color: #{$lavender-mist};
     --experience-card-bg--color: #{white};
     --experience-company-logo-border--color: #{$light-grey-mist};
+  }
+
+  .work {
+    --work-img-bg--color: #{$lavender-mist};
   }
 }
