@@ -35,3 +35,13 @@
   flex-wrap: wrap;
   margin-bottom: 35px;
 }
+
+@media screen and (max-width: 425px) {
+  .work-desc {
+    padding: 25px;
+
+    &-text {
+      text-align: justify;
+    }
+  }
+}

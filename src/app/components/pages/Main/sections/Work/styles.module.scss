@@ -11,6 +11,10 @@
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
+    &:not(:last-child) {
+      margin-bottom: 55px;
+    }
+
     &-img-wrapper {
       flex: 1;
       border-top-left-radius: 8px;
@@ -26,6 +30,8 @@
 
 
   &-item--revert {
+    flex-direction: row-reverse;
+
     .work-item-img-wrapper {
       border-top-right-radius: 8px;
       border-bottom-right-radius: 8px;
@@ -45,6 +51,8 @@
       
       &-img-wrapper {
         width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
       }
     }
   }

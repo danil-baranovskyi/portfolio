@@ -1,12 +1,28 @@
+import { FC } from "react";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 
-const WorkImg = () => {
+export interface WorkImgDataDto {
+  iframeSrc: string,
+  mobileImgSrc: string,
+}
+
+interface IWorkImgProps extends WorkImgDataDto {
+}
+
+const WorkImg: FC<IWorkImgProps> = ({ iframeSrc, mobileImgSrc }) => {
   return (
     <div className={styles["work-img"]}>
       <div className={styles["work-img-container"]}>
-        <iframe src="https://devit.software/"/>
-        {/* <Image src={"/images/works/devit-software-work.png"} width={500} height={400} alt="" objectFit="contain"/> */}
+        <div className={styles["work-img-iframe-wrapper"]}>
+          <iframe src={iframeSrc} />
+        </div>
+        <div className={styles["work-img--mobile"]}>
+          <Image
+            src={mobileImgSrc}
+            width={767} height={400} alt="" objectFit="cover"
+          />
+        </div>
       </div>
     </div>
   );
