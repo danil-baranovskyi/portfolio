@@ -11,8 +11,7 @@ export interface ExperienceData {
   className?: string;
 }
 
-interface IExpCardProps extends ExperienceData {
-}
+interface IExpCardProps extends ExperienceData {};
 
 const ExpCard: FC<IExpCardProps> = ({ title, description, logo, period, websiteUrl, className }) => {
   return (

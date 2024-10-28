@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import styles from "./styles.module.scss";
-import Image, { getImageProps } from 'next/image'
+import Image from 'next/image'
 import LocationIcon from "../../../../../../../public/icons/location.svg";
 import PhotoFrame from "@/app/components/shared/PhotoFrame";
 
