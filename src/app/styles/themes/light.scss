@@ -11,7 +11,7 @@
   --burger-line-color--major: #{$twilight-navy};
   --burger-line-color--minor: #{$lavender-mist};
 
-  --label-bg--color: #{$lavender-mist};
+  --label-bg--color: #{$cloud-whisper};
 
   .photo-frame {
     --hero-photo-outline-main-border--color: #{$twilight-navy};
@@ -38,5 +38,9 @@
 
   .work {
     --work-img-bg--color: #{$lavender-mist};
+  }
+
+  .footer {
+    --footer-bg--color: #{$lavender-mist};
   }
 }
