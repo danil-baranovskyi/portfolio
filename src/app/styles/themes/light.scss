@@ -4,12 +4,12 @@
   --text--color: #{$twilight-navy};
 
   --header-bg-color: #{$lavender-mist};
-
+  
   --download-cv--bg-color: #{$twilight-navy};
   --download-cv--text-color: #{$lavender-mist};
 
   --burger-line-color--major: #{$twilight-navy};
-  --burger-line-color--minor: #{$lavender-mist};
+  --burger-line-color--minor: #{$twilight-navy};
 
   --label-bg--color: #{$cloud-whisper};
 
@@ -19,7 +19,8 @@
   }
 
   .sidebar {
-    --sidebar-text-color: #{$lavender-mist};
+    --sidebar-text-color: #{$twilight-navy};
+    --sidebar-bg--color: #{$lavender-mist};
   }
 
   .hero {
