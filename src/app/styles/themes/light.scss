@@ -1,5 +1,9 @@
 @import "styles-variables";
 
+* {
+  color: $twilight-navy;
+}
+
 :root {
   --text--color: #{$twilight-navy};
 

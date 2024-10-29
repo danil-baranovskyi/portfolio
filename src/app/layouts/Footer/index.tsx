@@ -17,9 +17,9 @@ const Footer = ({ }) => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aut omnis, tempore, ullam aliquam accusantium minima, ea corrupti fuga nostrum rerum asperiores nemo repudiandae accusamus nesciunt unde vero numquam? &copy;</p>
         </div>
         <div className={styles["footer-reach-me"]}>
-          <a><MailIcon /><span>danbaranovskyi@gmail.com</span>
+          <a href="mailto:danbaranovskyi@gmail.com"><MailIcon /><span>danbaranovskyi@gmail.com</span>
           </a>
-          <a><PhoneIcon /><span>+38 095 203 28 84</span>
+          <a href="tel:+380952032884"><PhoneIcon /><span>+38 095 203 28 84</span>
           </a>
         </div>
         <div className={styles["footer-socials"]}>
