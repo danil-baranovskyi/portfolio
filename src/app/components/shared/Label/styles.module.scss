@@ -1,6 +1,7 @@
 .label {
-  display: block;
-  padding: 7px 14px;
+  display: flex;
+  width: fit-content;
+  padding: 7px 18px;
   border-radius: 25px;
   background-color: var(--label-bg--color);
 }

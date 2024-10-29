@@ -13,6 +13,7 @@ import SassLogo from "@/public/icons/skills/sass-logo.svg";
 import TailWindLogo from "@/public/icons/skills/tailwind-logo.svg";
 import MatUILogo from "@/public/icons/skills/angular-material-logo.svg";
 import Angular from "@/public/icons/skills/angular-logo.svg";
+import SectionIntro from "@/app/components/shared/SectionIntro";
 
 const SkillsSvgList = [
   { icon: JsLogo, label: 'JavaScript' },
@@ -33,6 +34,7 @@ const Skills = () => {
   return (
     <section className={classNames(styles["skills"], "skills")}>
       <div className={styles["skills-container"]}>
+      <SectionIntro labelText="Skills" introText="The tools and technologies that I use for work:"/>
         <ul className={styles["skills-list"]}>
           {SkillsSvgList.map((skillSvgNode, i) => (
             <li className={styles["skills-list-item"]} key={i}>

@@ -2,10 +2,12 @@ import classNames from "classnames";
 import styles from "./styles.module.scss";
 import PhotoFrame from "@/app/components/shared/PhotoFrame";
 import Image from "next/image";
+import SectionIntro from "@/app/components/shared/SectionIntro";
 
 const About = () => {
   return (
     <section className={classNames(styles["about"], "about")}>
+      <SectionIntro labelText="About"/>
       <div className={styles["about-container"]}>
         <div className={styles["about-img-wrapper"]}>
           <PhotoFrame>
