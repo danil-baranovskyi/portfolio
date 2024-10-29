@@ -3,9 +3,10 @@ import styles from "./styles.module.scss";
 import Label from "@/app/components/shared/Label";
 import MailIcon from "@/public/icons/email.svg";
 import PhoneIcon from "@/public/icons/phone.svg";
-import InstaIcon from "@/public/icons/instagram.svg";
-import LinkedinIcon from "@/public/icons/linkedin.svg";
-import GitHubIcon from "@/public/icons/github.svg";
+import InstaIcon from "@/public/icons/socials/instagram.svg";
+import LinkedinIcon from "@/public/icons/socials/linkedin.svg";
+import GitHubIcon from "@/public/icons/socials/github.svg";
+import TelegramIcon from "@/public/icons/socials/telegram.svg";
 
 const Footer = ({ }) => {
   return (
@@ -24,9 +25,14 @@ const Footer = ({ }) => {
         <div className={styles["footer-socials"]}>
           <p className={styles["footer-socials-text"]}>You may also find me on this platforms</p>
           <ul className={styles["footer-socials-list"]}>
-            <li><a><InstaIcon /></a></li>
-            <li><a><LinkedinIcon /></a></li>
-            <li><a><GitHubIcon /></a></li>
+            <li>
+              <a href="https://www.instagram.com/danilbaranovsky/" target="_blank">
+                <InstaIcon />
+              </a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/danil-baranovsky-69241721b/" target="_blank"><LinkedinIcon /></a></li>
+            <li><a href="https://github.com/danil-baranovskyi" target="_blank"><GitHubIcon /></a></li>
+            <li><a href="https://t.me/danbaranovskyi" target="_blank"><TelegramIcon /></a></li>
           </ul>
         </div>
       </div>
