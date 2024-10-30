@@ -23,11 +23,11 @@ const SkillsSvgList = [
   { icon: NodeJsLogo, label: 'NodeJS' },
   { icon: ExpressJsLogo, label: 'ExpressJS' },
   { icon: MongoDbLogo, label: 'MongoDB' },
-  { icon: RxJsLogo, label: 'KoaJS' },
+  { icon: RxJsLogo, label: 'RxJS' },
   { icon: SassLogo, label: 'Sass/Scss' },
   { icon: TailWindLogo, label: 'TailWind' },
   { icon: MatUILogo, label: 'MatUI' },
-  { icon: Angular, label: 'Angualr' },
+  { icon: Angular, label: 'Angualar' },
 ]
 
 const Skills = () => {

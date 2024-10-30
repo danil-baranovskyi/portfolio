@@ -1,5 +1,10 @@
 @use './themes/light.scss';
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 * {
   font-family: var(--font-geist-mono), sans-serif;
   box-sizing: border-box;
@@ -17,4 +22,20 @@ p {
   svg {
     transform: translateX(7px) translateY(-5px);
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb--color); 
+  border: 3px solid;
 }

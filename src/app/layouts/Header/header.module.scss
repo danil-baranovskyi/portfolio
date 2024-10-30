@@ -26,6 +26,10 @@
   display: flex;
   align-items: center;
   gap: 15px;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .burger-wrapper {

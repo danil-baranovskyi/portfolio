@@ -10,7 +10,7 @@ import TelegramIcon from "@/public/icons/socials/telegram.svg";
 
 const Footer = ({ }) => {
   return (
-    <footer className={classNames(styles["footer"], "footer")}>
+    <footer id="footer" className={classNames(styles["footer"], "footer")}>
       <div className={styles["footer-container"]}>
         <div className={styles["footer-intro"]}>
           <span><Label>Get in touch</Label></span>

@@ -7,7 +7,7 @@ import SectionIntro from "@/app/components/shared/SectionIntro";
 
 const Work = () => {
   return (
-    <section className={classNames(styles["work"], "work",)}>
+    <section id="work" className={classNames(styles["work"], "work",)}>
       <div className={styles["work-container"]}>
         <SectionIntro labelText="Work" introText="Some of my noteworthy works that i have built:"/>
         {workDataList.map((workData, i) => (

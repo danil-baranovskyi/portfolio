@@ -6,7 +6,7 @@ import SectionIntro from "@/app/components/shared/SectionIntro";
 
 const About = () => {
   return (
-    <section className={classNames(styles["about"], "about")}>
+    <section id="about" className={classNames(styles["about"], "about")}>
       <SectionIntro labelText="About"/>
       <div className={styles["about-container"]}>
         <div className={styles["about-img-wrapper"]}>

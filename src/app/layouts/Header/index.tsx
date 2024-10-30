@@ -11,9 +11,9 @@ const Header = () => {
 				<div className={styles['header-content']}>
 					<nav className={styles['navigation']}>
 						<ul className={styles['navigation-list']}>
-							<li className="navigation__list-item"><a>About me</a></li>
-							<li className="navigation__list-item"><a>My works</a></li>
-							<li className="navigation__list-item"><a>Contact me</a></li>
+							<li className="navigation__list-item"><a href="#about">About me</a></li>
+							<li className="navigation__list-item"><a href="#work">My works</a></li>
+							<li className="navigation__list-item"><a href="#footer">Contact me</a></li>
 						</ul>
 					</nav>
 					{/* <ThemeSwitcher/> */}
