@@ -24,7 +24,7 @@
   }
 }
 
-.work-img--mobile {
+.work-img--mobile-wrapper {
   display: none;
 }
 
@@ -32,6 +32,13 @@
   .work-img {
     &-iframe-wrapper {
       padding-bottom: 36.5%;
+    }
+
+    &-wrapper {
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
@@ -46,7 +53,7 @@
 
 @media screen and (max-width: 767px) {
   .work-img {
-    &--mobile {
+    &--mobile-wrapper {
       display: block;
       
       img {
@@ -61,7 +68,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .work-img {
     padding: 25px;
   }

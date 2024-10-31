@@ -9,6 +9,8 @@ import GitHubIcon from "@/public/icons/socials/github.svg";
 import TelegramIcon from "@/public/icons/socials/telegram.svg";
 
 const Footer = ({ }) => {
+  const year = new Date().getFullYear();
+
   return (
     <footer id="footer" className={classNames(styles["footer"], "footer")}>
       <div className={styles["footer-container"]}>
@@ -37,7 +39,7 @@ const Footer = ({ }) => {
         </div>
       </div>
       <div className={styles["footer-copyright"]}>
-        <p>© 2024 | <a>Made</a> with <span>♥</span> by Danylo Baranovskyi</p>
+        <p>© {year} | <a href="https://github.com/danil-baranovskyi/portfolio" target="_blank">Made</a> with <span>♥</span> by Danylo Baranovskyi</p>
       </div>
     </footer>
   )

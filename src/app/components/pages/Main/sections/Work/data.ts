@@ -10,11 +10,10 @@ export const workDataList: (WorkImgDataDto & WorkDescDataDto)[] = [
     title: "Super dev pisya popa",
     workLink: "https://devit.software/"
   }, {
-    iframeSrc: "https://devit.software/",
-    mobileImgSrc: "/images/works/devit-software-work.png",
-    labelsList: ["Label1", "Label2"],
+    imgSrc: "/images/works/selectors-work.png",
+    labelsList: ["Label12123", "Label2"],
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magnam ab fugiat placeat porro consequatur nisi eum praesentium numquam ipsam, natus error deleniti, eos alias obcaecati reprehenderit fuga vitae at.",
     title: "Super dev pisya popa",
-    workLink: "https://devit.software/"
+    workLink: "https://apps.shopify.com/selectors"
   }
 ]

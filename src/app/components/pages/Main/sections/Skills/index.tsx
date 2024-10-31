@@ -27,7 +27,7 @@ const SkillsSvgList = [
   { icon: SassLogo, label: 'Sass/Scss' },
   { icon: TailWindLogo, label: 'TailWind' },
   { icon: MatUILogo, label: 'MatUI' },
-  { icon: Angular, label: 'Angualar' },
+  { icon: Angular, label: 'Angular' },
 ]
 
 const Skills = () => {
