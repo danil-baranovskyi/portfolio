@@ -14,8 +14,8 @@ const Header = () => {
 					<nav className={styles['navigation']}>
 						<ul className={styles['navigation-list']}>
 							<li className="navigation__list-item"><a href="#about">{t("nav.about")}</a></li>
-							<li className="navigation__list-item"><a href="#work">My works</a></li>
-							<li className="navigation__list-item"><a href="#footer">Contact me</a></li>
+							<li className="navigation__list-item"><a href="#work">{t("nav.work")}</a></li>
+							<li className="navigation__list-item"><a href="#footer">{t("nav.contact")}</a></li>
 						</ul>
 					</nav>
 					{/* <ThemeSwitcher/> */}

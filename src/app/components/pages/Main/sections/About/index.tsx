@@ -3,11 +3,14 @@ import styles from "./styles.module.scss";
 import PhotoFrame from "@/app/components/shared/PhotoFrame";
 import Image from "next/image";
 import SectionIntro from "@/app/components/shared/SectionIntro";
+import { useTranslations } from "next-intl";
 
 const About = () => {
+  const t = useTranslations('HomePage.about');
+
   return (
     <section id="about" className={classNames(styles["about"], "about")}>
-      <SectionIntro labelText="About"/>
+      <SectionIntro labelText={t("label")} />
       <div className={styles["about-container"]}>
         <div className={styles["about-img-wrapper"]}>
           <PhotoFrame>
@@ -21,15 +24,14 @@ const About = () => {
           </PhotoFrame>
         </div>
         <div className={styles["about-content"]}>
-          <h2 className={styles["about-title"]}>
-            <span>Curius about me? </span>
-            <span>(sure you are😜)</span>
+          <h2 className={styles["about-title"]} dangerouslySetInnerHTML={{__html: t.raw('title')}}>
           </h2>
           <div className={styles["about-text-wrapper"]}>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>{t("desc._1")}</p>
+            <p>{t("desc._2")}</p>
+            <p>{t("desc._3")}</p>
+            <p>{t("desc._4")}</p>
+            <p>{t("desc._5")}</p>
           </div>
         </div>
       </div>

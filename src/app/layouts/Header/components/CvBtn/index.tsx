@@ -1,8 +1,10 @@
 'use client';
 
+import { useTranslations } from "next-intl";
 import styles from "./styles.module.scss";
 
 const CvBtn = () => {
+  const t = useTranslations('HomePage.nav');
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = '/files/CV – Danil Baranovsky.pdf'; // Replace with your file URL
@@ -13,7 +15,7 @@ const CvBtn = () => {
   };
   
   return (
-    <button className={styles['download-cv']} onClick={handleDownload}>Download cv</button>
+    <button className={styles['download-cv']} onClick={handleDownload}>{t("downloadCv")}</button>
   )
 }
 

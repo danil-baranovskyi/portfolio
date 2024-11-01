@@ -3,27 +3,29 @@ import styles from "./styles.module.scss";
 import Image from 'next/image'
 import LocationIcon from "../../../../../../../public/icons/location.svg";
 import PhotoFrame from "@/app/components/shared/PhotoFrame";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations('HomePage.hero');
   return (
     <section className={classNames(styles["hero"], 'hero')}>
       <div className={styles["hero-container"]}>
         <div className={styles["hero-content"]}>
           <div className={styles["hero-text-wrapper"]}>
-            <h2 className={styles["hero-title"]}>Hi, I`m Danylo,😎</h2>
-            <p className={styles["hero-sub-title"]}>Lorem ipsume Lorem ipsume Lorem ipsume Lorem ipsume Lorem ipsume Lorem ipsume Lorem ipsume Lorem ipsume Lorem ipsume Lorem ipsume</p>
+            <h2 className={styles["hero-title"]}>{t("title")}</h2>
+            <p className={styles["hero-sub-title"]}>{t("subTitle")}</p>
           </div>
           <div>
             <span className={styles["location"]}>
               <span className={styles['location-icon']}>
                 <LocationIcon />
               </span>
-              <span>Kremenchug, Ukraine</span>
+              <span>{t("location")}</span>
             </span>
-            <span className={styles['online-now']}>Online now</span>
+            <span className={styles['online-now']}>{t("online")}</span>
           </div>
           <div>
-            <button className={styles['contact-me']}>Contact Me</button>
+            <button className={styles['contact-me']}>{t("contactMe")}</button>
           </div>
         </div>
         <PhotoFrame $viewportRange={{ min: 660 }}>

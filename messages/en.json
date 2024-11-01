@@ -3,7 +3,26 @@
     "nav": {
       "about": "About Me",
       "work": "My Works",
-      "contact": "Contact Me"
+      "contact": "Contact Me",
+      "downloadCv": "Download CV"
+    },
+    "hero": {
+      "title": "Hi, I`m Danylo,😎",
+      "subTitle": "Loerm",
+      "location": "Kremenchug, Ukraine",
+      "online": "Online now",
+      "contactMe": "Contact Me"
+    },
+    "about": {
+      "label": "About",
+      "title": "<span>Curius about me? </span><span>(sure you are😜)</span>",
+      "desc": {
+        "_1": "first p about me",
+        "_2": "second p about me",
+        "_3": "third p about me",
+        "_4": "fourth p about me",
+        "_5": "fifth p about me"
+      }
     }
   }
 }
