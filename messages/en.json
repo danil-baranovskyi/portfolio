@@ -1,0 +1,9 @@
+{
+  "HomePage": {
+    "nav": {
+      "about": "About Me",
+      "work": "My Works",
+      "contact": "Contact Me"
+    }
+  }
+}

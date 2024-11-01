@@ -11,7 +11,8 @@
   "dependencies": {
     "classnames": "^2.5.1",
     "next": "14.2.14",
-    "react": "^18",
+    "next-intl": "^3.24.0",
+    "react": "^18.3.1",
     "react-dom": "^18",
     "styled-components": "^6.1.13"
   },
