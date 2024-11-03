@@ -3,7 +3,8 @@
     "nav": {
       "about": "Про мене",
       "work": "Мої роботи",
-      "contact": "Законтачитись"
+      "contact": "Законтачитись",
+      "downloadCv": "Завантажити CV"
     },
     "hero": {
       "title": "Хай, Я Данило,😎",
@@ -21,6 +22,29 @@
         "_3": "три абзац",
         "_4": "чотири абзац",
         "_5": "пять абзац"
+      }
+    },
+    "skills": {
+      "label": "Навички",
+      "text": "Інструменти та технології, які я використовую для роботи:"
+    },
+    "experience": {
+      "label": "Досвід",
+      "text": "Невеличка витримка з мого досвіду:",
+      "devitIntern": {
+        "position": "Full-stack Intern",
+        "workPeriod": "2000-2000",
+        "desc": "[\"Perfect\", \"incrediable\",\"sexy\"]"
+      },
+      "devitFullStack": {
+        "position": "Full-stack dev",
+        "workPeriod": "2000-2000",
+        "desc": "[\"Super Perfect\", \"super incrediable\",\"super sexy\"]"
+      },
+      "userwayFrontEnd": {
+        "position": "Front-end engeneer",
+        "workPeriod": "2000-2000",
+        "desc": "[\"Aboba Perfect\", \"Aboba incrediable\",\"Aboba sexy\"]"
       }
     }
   }

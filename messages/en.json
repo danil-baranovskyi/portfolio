@@ -23,6 +23,29 @@
         "_4": "fourth p about me",
         "_5": "fifth p about me"
       }
+    },
+    "skills": {
+      "label": "Skills",
+      "text": "The tools and technologies that I use for work:"
+    },
+    "experience": {
+      "label": "Experience",
+      "text": "Quick summery of my programmer path:",
+      "devitIntern": {
+        "position": "Full-stack Intern",
+        "workPeriod": "2000-2000",
+        "desc": "[\"Perfect\", \"incrediable\",\"sexy\"]"
+      },
+      "devitFullStack": {
+        "position": "Full-stack dev",
+        "workPeriod": "2000-2000",
+        "desc": "[\"Super Perfect\", \"super incrediable\",\"super sexy\"]"
+      },
+      "userwayFrontEnd": {
+        "position": "Front-end engeneer",
+        "workPeriod": "2000-2000",
+        "desc": "[\"Aboba Perfect\", \"Aboba incrediable\",\"Aboba sexy\"]"
+      }
     }
   }
 }

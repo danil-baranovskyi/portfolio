@@ -1,12 +1,14 @@
 import classNames from "classnames";
 import CvBtn from "../CvBtn";
 import styles from "./styles.module.scss";
+import { useTranslations } from "next-intl";
 
 interface SideBarProps {
   isActive: boolean;
 }
 
 const SideBar = ({ isActive }: SideBarProps) => {
+  const t = useTranslations('nav');
   return (
     <div className={classNames(styles['sidebar'], { [styles['sidebar--active']]: isActive }, 'sidebar')}>
       <nav className={styles['navigation']}>
@@ -17,7 +19,7 @@ const SideBar = ({ isActive }: SideBarProps) => {
         </ul>
       </nav>
       <div className={styles['cv-wrapper']}>
-        <CvBtn />
+        <CvBtn text={t("downloadCv")}/>
       </div>
     </div>
   )

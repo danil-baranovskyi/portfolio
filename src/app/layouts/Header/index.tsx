@@ -2,10 +2,11 @@ import classNames from 'classnames';
 import styles from './header.module.scss';
 import CvBtn from './components/CvBtn';
 import Burger from './components/Burger';
-import { useTranslations } from 'next-intl';
+import { AbstractIntlMessages, NextIntlClientProvider, useMessages, useTranslations } from 'next-intl';
 
 const Header = () => {
 	const t = useTranslations('HomePage');
+	const messages = useMessages();
 	return (
 		<header className={classNames(styles.header, 'header')}>
 			<div className={styles['header-container']}>
@@ -20,10 +21,14 @@ const Header = () => {
 					</nav>
 					{/* <ThemeSwitcher/> */}
 					<div className={styles['cv-wrapper']}>
-						<CvBtn />
+						<CvBtn text={t("nav.downloadCv")} />
 					</div>
 					<div className={styles['burger-wrapper']}>
-						<Burger />
+						<NextIntlClientProvider
+							messages={messages["HomePage"] as AbstractIntlMessages}
+						>
+							<Burger />
+						</NextIntlClientProvider>
 					</div>
 				</div>
 			</div>
