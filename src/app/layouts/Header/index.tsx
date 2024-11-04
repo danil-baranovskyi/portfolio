@@ -3,6 +3,7 @@ import styles from './header.module.scss';
 import CvBtn from './components/CvBtn';
 import Burger from './components/Burger';
 import { AbstractIntlMessages, NextIntlClientProvider, useMessages, useTranslations } from 'next-intl';
+import LangSwitcher from './components/LangSwitcher';
 
 const Header = () => {
 	const t = useTranslations('HomePage');
@@ -20,7 +21,9 @@ const Header = () => {
 						</ul>
 					</nav>
 					{/* <ThemeSwitcher/> */}
+
 					<div className={styles['cv-wrapper']}>
+						<LangSwitcher />
 						<CvBtn text={t("nav.downloadCv")} />
 					</div>
 					<div className={styles['burger-wrapper']}>

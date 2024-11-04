@@ -1,0 +1,22 @@
+@import "styles-variables";
+
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border: 2px solid var(--active-switcher--color);
+  border-radius: 4px;
+  position: relative;
+  width: fit-content;
+
+  &-btn {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+
+    &--active {
+      background-color: var(--active-switcher--color);
+      color: var(--active-switcher-text--color);
+    }
+  }
+}
