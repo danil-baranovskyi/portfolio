@@ -2,9 +2,10 @@ import { ExperienceData } from "./components/ExpCard";
 import UserWay from "@/public/icons/experience/userway.svg";
 import DevitGroup from "@/public/icons/experience/devit-group.svg";
 import DevitSoftware from "@/public/icons/experience/devit-software.svg";
+import { TranslationFunc } from "@/app/dtos";
 
 
-export const getExperienceData = (t: (key: string) => string ): ExperienceData[] => {
+export const getExperienceData = (t: TranslationFunc ): ExperienceData[] => {
   return [
     {
       title: t("devitIntern.position"),

@@ -46,6 +46,28 @@
         "workPeriod": "2000-2000",
         "desc": "[\"Aboba Perfect\", \"Aboba incrediable\",\"Aboba sexy\"]"
       }
+    },
+    "work": {
+      "label": "Work",
+      "text": "Some of my noteworthy works that i have built:",
+      "devitWebsite": {
+        "title":"DevitSoftWare website",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magnam ab fugiat placeat porro consequatur nisi eum praesentium numquam ipsam, natus error deleniti, eos alias obcaecati reprehenderit fuga vitae at.",
+        "link": "Try it out"
+      },
+      "devitSelectors": {
+        "title":"Selectors app",
+        "desc": "Lorem ipsum dolor sit amet consectatetur, adipisicing elit. Facere magnam ab fugiat placeat porro consequatur nisi eum praesentium numquam ipsam, natus error deleniti, eos alias obcaecati reprehenderit fuga vitae .",
+        "link": "Try it out"
+      }
+    },
+    "footer": {
+      "label": "Get in touch",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aut omnis, tempore, ullam aliquam accusantium minima, ea corrupti fuga nostrum rerum asperiores nemo repudiandae accusamus nesciunt unde vero numquam? ©",
+      "socials": {
+        "text": "You may also find me on this platforms"
+      },
+      "copyright": "© {year} | <projectLink>Made</projectLink> with <heart>♥</heart> by Danylo Baranovskyi"
     }
   }
 }

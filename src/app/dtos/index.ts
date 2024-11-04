@@ -1,0 +1,1 @@
+export type TranslationFunc = (key: string) => string

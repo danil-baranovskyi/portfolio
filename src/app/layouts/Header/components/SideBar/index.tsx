@@ -13,9 +13,9 @@ const SideBar = ({ isActive }: SideBarProps) => {
     <div className={classNames(styles['sidebar'], { [styles['sidebar--active']]: isActive }, 'sidebar')}>
       <nav className={styles['navigation']}>
         <ul className={styles['navigation-list']}>
-          <li className={styles['navigation-list-item']}><a>About me</a></li>
-          <li className={styles['navigation-list-item']}><a>My works</a></li>
-          <li className={styles['navigation-list-item']}><a>Contact me</a></li>
+          <li className={styles['navigation-list-item']}><a>{t("about")}</a></li>
+          <li className={styles['navigation-list-item']}><a>{t("work")}</a></li>
+          <li className={styles['navigation-list-item']}><a>{t("contact")}</a></li>
         </ul>
       </nav>
       <div className={styles['cv-wrapper']}>

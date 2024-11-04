@@ -46,6 +46,28 @@
         "workPeriod": "2000-2000",
         "desc": "[\"Aboba Perfect\", \"Aboba incrediable\",\"Aboba sexy\"]"
       }
+    },
+    "work": {
+      "label": "Роботи",
+      "text": "Деякі проєкти варті вашої уваги, що я зробив:",
+      "devitWebsite": {
+        "title": "Сайт компанії DevitSoftware",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magnam ab fugiat placeat porro consequatur nisi eum praesentium numquam ipsam, natus error deleniti, eos alias obcaecati reprehenderit fuga vitae at.",
+        "link": "Чекнути"
+      },
+      "devitSelectors": {
+        "title": "\"Selecty\" - додаток до Shopify Store",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magnam ab fugiat placeat porro consequatur nisi eum praesentium numquam ipsam, natus error deleniti, eos alias obcaecati reprehenderit fuga vitae at.",
+        "link": "Чекнути"
+      }
+    },
+    "footer": {
+      "label": "Гет ін тач",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aut omnis, tempore, ullam aliquam accusantium minima, ea corrupti fuga nostrum rerum asperiores nemo repudiandae accusamus nesciunt unde vero numquam? ©",
+      "socials": {
+        "text": "Ви можете знайти мене тут:"
+      },
+      "copyright": "© {year} | <projectLink>Зроблено</projectLink> з <heart>♥</heart> Данилом Барановським"
     }
   }
 }

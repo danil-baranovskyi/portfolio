@@ -2,15 +2,17 @@ import classNames from "classnames";
 import styles from "./styles.module.scss";
 import WorkImg from "./components/WorkImg";
 import WorkDesc from "./components/WorkDesc";
-import { workDataList } from "./data";
+import { getWorkData } from "./data";
 import SectionIntro from "@/app/components/shared/SectionIntro";
+import { useTranslations } from "next-intl";
 
 const Work = () => {
+  const t = useTranslations("HomePage.work");
   return (
     <section id="work" className={classNames(styles["work"], "work",)}>
       <div className={styles["work-container"]}>
-        <SectionIntro labelText="Work" introText="Some of my noteworthy works that i have built:"/>
-        {workDataList.map((workData, i) => (
+        <SectionIntro labelText={t("label")} introText={t("text")}/>
+        {getWorkData(t).map((workData, i) => (
           <div
             key={i}
             className={
