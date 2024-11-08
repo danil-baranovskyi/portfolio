@@ -8,7 +8,6 @@ import LinkedinIcon from "@/public/icons/socials/linkedin.svg";
 import GitHubIcon from "@/public/icons/socials/github.svg";
 import TelegramIcon from "@/public/icons/socials/telegram.svg";
 import { useTranslations } from 'next-intl';
-import { ReactNode } from "react";
 
 const Footer = ({ }) => {
   const t = useTranslations("HomePage.footer");

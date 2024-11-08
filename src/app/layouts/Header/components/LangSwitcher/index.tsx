@@ -30,11 +30,11 @@ const LangSwitcher = () => {
   const handleLangClick = useCallback((clickedLocale: ILocale) => () => {
     setCurrentLocale(clickedLocale);
     router.replace(
-      // @ts-expect-error
+      // @ts-expect-error This code from doc
       {pathname, params},
       {locale: clickedLocale.code}
     );
-  }, []);
+  }, [ params, pathname, router]);
 
   useEffect(() => {
     setCurrentLocale(() => {
@@ -58,7 +58,3 @@ const LangSwitcher = () => {
 }
 
 export default LangSwitcher;
-
-function useIntl(): { locale: any; } {
-  throw new Error("Function not implemented.");
-}

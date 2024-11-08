@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Header from "../layouts/Header";
-
-import "../styles/globals.scss";
-import "../styles/reset.scss";
 import StyledComponentsRegistry from "../lib/StyledComponentsRegistry";
 import Footer from "../layouts/Footer";
 import { notFound } from "next/navigation";
-import { getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { Locales } from "../dtos";
+
+import "../styles/globals.scss";
+import "../styles/reset.scss";
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -31,17 +31,11 @@ export default async function RootLayout({
   params: {locale}
 }: Readonly<{
   children: React.ReactNode;
-  params: {locale: string};
+  params: {locale: Locales};
 }>) {
-  // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
- 
-  // Providing all messages to the client
-  // side is the easiest way to get started
-  const messages = await getMessages();
- 
 
   return (
     <html lang="en">

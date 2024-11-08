@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from "next-intl";
 import styles from "./styles.module.scss";
 import { FC } from "react";
 
