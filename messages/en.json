@@ -8,7 +8,7 @@
     },
     "hero": {
       "title": "Hi, I`m Danylo,😎",
-      "subTitle": "Loerm",
+      "subTitle": "I’m a Full-Stack Developer with more then 3 years experience who thrives on turning ideas into innovative solutions. I believe in the power of technology to transform ideas into reality. Every line of code I write  is infused with purpose and intention. My passion is to create digital experiences that not only meet client needs but also delight users and drive success.",
       "location": "Kremenchug, Ukraine",
       "online": "Online now",
       "contactMe": "Contact Me"
@@ -17,11 +17,10 @@
       "label": "About",
       "title": "<span>Curius about me? </span><span>(sure you are😜)</span>",
       "desc": {
-        "_1": "first p about me",
-        "_2": "second p about me",
-        "_3": "third p about me",
-        "_4": "fourth p about me",
-        "_5": "fifth p about me"
+        "_1": "As a passionate Full-Stack Developer with over 3 years of experience, I've had the opportunity to work on a variety of projects, ranging from dynamic e-commerce platforms to tools that enhance internet accessibility. Each project has deepened my understanding of both the technical and creative aspects of development.",
+        "_2": "I specialize in JavaScript, React, and Node.js, and my goal is to create seamless user experiences that are both functional and visually appealing. I believe in the power of clean, efficient code to bring ideas to life.",
+        "_3": "Beyond my professional skills, I'm deeply committed to using technology to solve real-world problems. I relish the challenge of finding innovative solutions that can make a tangible impact, whether that's optimizing performance or improving accessibility.",
+        "_4": "When I'm not coding, you'll find me exploring the outdoors, lifting weights at the gym, or getting lost in a good book. Balancing work and personal interests fuels my creativity and keeps me inspired. Feel free to explore my portfolio to see more of my work, and don't hesitate to reach out if you'd like to collaborate! (And yes, AI helped me write this"
       }
     },
     "skills": {
@@ -52,18 +51,18 @@
       "text": "Some of my noteworthy works that i have built:",
       "devitWebsite": {
         "title":"DevitSoftWare website",
-        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magnam ab fugiat placeat porro consequatur nisi eum praesentium numquam ipsam, natus error deleniti, eos alias obcaecati reprehenderit fuga vitae at.",
+        "desc": "In this project, I developed the entire website structure and design using the Next.js framework, styled with SCSS, and built interactive components with React. I integrated and configured next-translate to enable multi-language support, catering to diverse language preferences. Utilizing Axios for data fetching, JSDOM for parsing, and Swiper.js to display reviews in a slider format, I ensured the website's functionality and aesthetics across various devices and screen sizes. Additionally, I implemented various animations and transitions to enhance the user experience. I achieved all green metrics by PageSpeed Insights  by optimizing code and assets and addressed cross-browser compatibility issues to ensure a consistent user experience across all major browsers.",
         "link": "Try it out"
       },
       "devitSelectors": {
-        "title":"Selectors app",
-        "desc": "Lorem ipsum dolor sit amet consectatetur, adipisicing elit. Facere magnam ab fugiat placeat porro consequatur nisi eum praesentium numquam ipsam, natus error deleniti, eos alias obcaecati reprehenderit fuga vitae .",
+        "title":"Selecty - Shopify app",
+        "desc": "As a Full-Stack Developer for the Selecty Shopify app at DevIT Software, I created and integrated new features from scratch, ensuring the app met Shopify's standards. I handled merchants' requests, optimized performance, and conducted competitive analysis to enhance the product. Key achievements include implementing auto geo-detection, revamped selector designs, and improved data control options for Pro and Premium plans, which resulted in a notable revenue boost.",
         "link": "Try it out"
       }
     },
     "footer": {
       "label": "Get in touch",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur aut omnis, tempore, ullam aliquam accusantium minima, ea corrupti fuga nostrum rerum asperiores nemo repudiandae accusamus nesciunt unde vero numquam? ©",
+      "text": "What’s next? Feel free to reach out to me if you are looking for a developer, have a query, or simple want to connect",
       "socials": {
         "text": "You may also find me on this platforms"
       },

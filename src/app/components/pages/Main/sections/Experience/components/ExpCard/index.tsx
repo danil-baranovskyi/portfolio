@@ -11,7 +11,7 @@ export interface ExperienceData {
   className?: string;
 }
 
-interface IExpCardProps extends ExperienceData {};
+interface IExpCardProps extends ExperienceData { };
 
 const ExpCard: FC<IExpCardProps> = ({ title, description, logo, period, websiteUrl, className }) => {
   return (
@@ -35,11 +35,50 @@ const ExpCard: FC<IExpCardProps> = ({ title, description, logo, period, websiteU
         </div>
 
         <div className={styles["exp-card-content"]}>
-          <ul>
-            {description.map((text, i) => (
-              <li key={i}><p>{text}</p></li>
-            ))}
-          </ul>
+          <h4 className={styles["about-company-header"]}>About DevIT.software:</h4>
+          <p className={styles["about-company-text"]}>DevIT.software is a team within DevIT.group specializing in building applications for the Shopify platform and developing their own innovative products.</p>
+          <div className={classNames(styles["responsobilities"], styles["exp-block-wrapper"])}>
+            <h5>Key Responsibilities:</h5>
+            <ul>
+              <li><h6>Front-End Development:</h6>
+                <ul>
+                  <li>Designed and developed user interfaces (UIs) using HTML, CSS, JavaScript libraries like React.</li>
+                  <li>Ensured responsive design for optimal viewing across different devices and cross-browser compatibility.</li>
+                </ul>
+              </li>
+
+              <li><h6>Back-end Development:</h6>
+                <ul>
+                  <li>Developing server-side logic, APIs, and databases.</li>
+                  <li>Using languages and frameworks like Node.js, GraphQl</li>
+                  <li>Designing and managing databases such as MySQL, MongoDB</li>
+                </ul>
+              </li>
+              <li><h6>Project Improvement:</h6>
+                <ul>
+                  <li>Collaborated with support teams to provide assistance and solutions for customers.
+                  </li>
+                  <li>Proactively proposed new visual styles, functionalities, and features to enhance products and stay ahead of competitors.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div className={classNames(styles["projects"], styles["exp-block-wrapper"])}>
+            <h5 > Notable Projects:</h5>
+            <ul>
+              <li>DevIT.Software website</li>
+              <li>Selecty (Shopify app)</li>
+            </ul>
+          </div>
+          <div className={classNames(styles["skills"], styles["exp-block-wrapper"])}>
+            <h5 > Skills and Technologies:</h5>
+            <ul>
+              <li>Front-End: React</li>
+              <li>Back-End: Koa.js</li>
+              <li>Databases: MySQL, MongoDB</li>
+              <li>Integrations: Shopify API, GraphQL</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -31,7 +31,6 @@ const About = () => {
             <p>{t("desc._2")}</p>
             <p>{t("desc._3")}</p>
             <p>{t("desc._4")}</p>
-            <p>{t("desc._5")}</p>
           </div>
         </div>
       </div>

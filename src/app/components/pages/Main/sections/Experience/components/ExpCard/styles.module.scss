@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     gap: 10px;
   }
 
@@ -35,17 +35,51 @@
   }
 
   &-content {
-    display: flex;
-    justify-content: center;
-
     ul {
       list-style: initial;
+
+      h6 {
+        margin-bottom: 10px;
+      }
+
+      li {
+        margin-bottom: 3px;
+      }
+
+      ul {
+        list-style: circle;
+        li {
+          
+          &:last-child {
+            margin-bottom: 10px;
+          }
+        }
+      }
     }
 
     li {
       margin: 0 auto;
-      max-width: 60%;
+      max-width: 90%;
     }
+  }
+}
+
+.about-company {
+  &-header {
+    margin-bottom: 10px;
+  }
+  &-text {
+    margin-bottom: 10px;
+  }
+}
+
+.exp-block-wrapper {
+  h5 {
+    margin-bottom: 10px;
+  }
+
+  h5 + ul {
+    margin-bottom: 10px;
   }
 }
 
@@ -62,6 +96,7 @@
 @media screen and (max-width: 480px) {
   .exp-card {
     padding: 25px;
+
     &-header {
       position: relative;
     }
