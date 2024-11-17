@@ -6,13 +6,13 @@ export const getWorkData = (t: TranslationFunc): (WorkImgDataDto & WorkDescDataD
   {
     iframeSrc: "https://devit.software/",
     mobileImgSrc: "/images/works/devit-software-work.png",
-    labelsList: ["Label1", "Label2"],
+    labelsList: ["React", "NextJS", "SCSS", "SwiperJS", "JSDOM"],
     text: t("devitWebsite.desc"),
     title: t("devitWebsite.title"),
     workLink: "https://devit.software/"
   }, {
     imgSrc: "/images/works/selectors-work.png",
-    labelsList: ["Label12123", "Label2"],
+    labelsList: ["JS", "CSS", "React", "Shopify API", "GraphQl"],
     text: t("devitSelectors.desc"),
     title: t("devitSelectors.title"),
     workLink: "https://apps.shopify.com/selectors"

@@ -37,13 +37,16 @@
   &-content {
     ul {
       list-style: initial;
-
+      p {
+        line-height: 1.1;
+      }
       h6 {
         margin-bottom: 10px;
       }
 
       li {
-        margin-bottom: 3px;
+        margin-bottom: 5px;
+        line-height: 1.1;
       }
 
       ul {

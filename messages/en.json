@@ -31,38 +31,107 @@
       "label": "Experience",
       "text": "Quick summery of my programmer path:",
       "devitIntern": {
-        "position": "Full-stack Intern",
-        "workPeriod": "2000-2000",
-        "desc": "[\"Perfect\", \"incrediable\",\"sexy\"]"
+        "position": "Full-Stack Intern",
+        "workPeriod": "Sept - Oct 2021",
+        "desc": {
+          "company": {
+            "title": "About DevIT.group:",
+            "desc": "DevIT.group is a resilient Ukrainian IT company established in 2013. They provide IT services and business solutions, create their own products, and develop websites, web applications, mobile and TV apps for a global clientage."
+          },
+          "responsobilites": {
+            "title": "Key Responsibilities:",
+            "list": "[\"Gained valuable experience through training sessions and workshops relevant to full-stack development.\",\"Expanded my skillset by actively learning new technologies.\", \"Contributed to team discussions and participated in brainstorming sessions.\"]"
+          },
+          "projects": {
+            "title": "Notable Projects:",
+            "list": "[\"None (plak plak).\"]"
+          },
+          "skills": {
+            "title": "Skills and Technologies:",
+            "list": "[\"Html, Css\",\"JavaScript, React\", \"Node.js\"]"
+          }
+        }
       },
       "devitFullStack": {
-        "position": "Full-stack dev",
-        "workPeriod": "2000-2000",
-        "desc": "[\"Super Perfect\", \"super incrediable\",\"super sexy\"]"
+        "position": "Full-Stack Developer",
+        "workPeriod": "Nov 2021 - Dec 2023",
+        "desc": {
+          "company": {
+            "title": "About DevIT.software:",
+            "desc": "DevIT.software is a team within DevIT.group specializing in building applications for the Shopify platform and developing their own innovative products."
+          },
+          "responsobilites": {
+            "title": "Key Responsibilities:",
+            "frontEnd": {
+              "title": "Front-End Development:",
+              "list": "[\"Designed and developed user interfaces (UIs) using HTML, CSS, JavaScript libraries like React.\", \"Ensured responsive design for optimal viewing across different devices and cross-browser compatibility.\"]"
+            },
+            "backEnd": {
+              "title": "Back-end Development:",
+              "list": "[\"Developing server-side logic, APIs, and databases\",\"Using languages and frameworks like Node.js, GraphQl.\", \"Designing and managing databases such as MySQL, MongoDB\"]"
+            },
+            "project": {
+              "title": "Project Improvement:",
+              "list": "[\"Collaborated with support teams to provide assistance and solutions for customers.\",\"Proactively proposed new visual styles, functionalities, and features to enhance products and stay ahead of competitors.\"]"
+            }
+          },
+          "projects": {
+            "title": "Notable Projects:",
+            "list": "[\"DevIT.Software website\",\"Selecty (Shopify app)\"]"
+          },
+          "skills": {
+            "title": "Skills and Technologies:",
+            "list": "[\"Front-End: React\",\"Back-End: Koa.js\",\"Databases: MySQL, MongoDB\",\"Integrations: Shopify API, GraphQL\"]"
+          }
+        }
       },
       "userwayFrontEnd": {
-        "position": "Front-end engeneer",
-        "workPeriod": "2000-2000",
-        "desc": "[\"Aboba Perfect\", \"Aboba incrediable\",\"Aboba sexy\"]"
+        "position": "Front-End Developer",
+        "workPeriod": "Dec 2023 - Current",
+        "desc": {
+          "company": {
+            "title": "About Userway:",
+            "desc": "Userway is a leading accessibility company that empowers businesses to create inclusive digital experiences for people with disabilities."
+          },
+          "responsobilites": {
+            "title": "Key Responsibilities:",
+            "frontEnd": {
+              "title": "Front-End Development:",
+              "list": "[\"Developed and maintained the Userway dashboard using Angular, RxJS, MatUI, Akita store, Ngrx store, and Signals.\",\"Wrote clean, efficient, and well-documented code to enhance code readability and maintainability.\",\"Conducted thorough testing to identify and resolve bugs and performance issues.\",\"Stayed up-to-date with the latest front-end technologies and best practices.\"]"
+            },
+            "accessibility": {
+              "title": "Accessibility",
+              "list": "[\"Implemented WCAG 2.1 AA and 2.2 AA accessibility standards to ensure websites are usable by people with disabilities.\", \"Utilized assistive technologies to test and validate accessibility compliance.\"]"
+            }
+          },
+          "projects": {
+            "title": "Notable Projects:",
+            "list": "[\"Userway dashboard\"]"
+          },
+          "skills": {
+            "title": "Key Skills and Technologies:",
+            "list": "[\"Angular\",\"RxJS\",\"MatUI\",\"Akita store\",\"Ngrx store\",\"Signals\",\"WCAG 2.1 AA and 2.2 AA\"]"
+          }
+        }
       }
     },
     "work": {
       "label": "Work",
       "text": "Some of my noteworthy works that i have built:",
       "devitWebsite": {
-        "title":"DevitSoftWare website",
-        "desc": "In this project, I developed the entire website structure and design using the Next.js framework, styled with SCSS, and built interactive components with React. I integrated and configured next-translate to enable multi-language support, catering to diverse language preferences. Utilizing Axios for data fetching, JSDOM for parsing, and Swiper.js to display reviews in a slider format, I ensured the website's functionality and aesthetics across various devices and screen sizes. Additionally, I implemented various animations and transitions to enhance the user experience. I achieved all green metrics by PageSpeed Insights  by optimizing code and assets and addressed cross-browser compatibility issues to ensure a consistent user experience across all major browsers.",
+        "title": "DevitSoftWare website",
+        "desc": "I developed the website structure and design using Next.js, SCSS, and React. I integrated next-translate for multi-language support, used Axios for data fetching, JSDOM for parsing, and Swiper.js for review sliders. I ensured functionality and aesthetics across devices, implemented animations for a better user experience, achieved all green metrics on PageSpeed Insights, and resolved cross-browser compatibility issues.",
         "link": "Try it out"
       },
       "devitSelectors": {
-        "title":"Selecty - Shopify app",
+        "title": "Selecty - Shopify app",
         "desc": "As a Full-Stack Developer for the Selecty Shopify app at DevIT Software, I created and integrated new features from scratch, ensuring the app met Shopify's standards. I handled merchants' requests, optimized performance, and conducted competitive analysis to enhance the product. Key achievements include implementing auto geo-detection, revamped selector designs, and improved data control options for Pro and Premium plans, which resulted in a notable revenue boost.",
         "link": "Try it out"
       }
     },
     "footer": {
       "label": "Get in touch",
-      "text": "What’s next? Feel free to reach out to me if you are looking for a developer, have a query, or simple want to connect",
+      "text": "What’s next? Feel free to reach out to me if you are looking for a developer, have a query, or simple want to connect.",
       "socials": {
         "text": "You may also find me on this platforms"
       },
