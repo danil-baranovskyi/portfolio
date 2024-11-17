@@ -1,7 +1,6 @@
 import { FC, ReactNode } from "react";
 import styles from "./styles.module.scss";
 import classNames from "classnames";
-import Experience from '../../index';
 
 export interface ExperienceDescriptionDto {
   company: {
@@ -59,8 +58,8 @@ const ExpCard: FC<IExpCardProps> = ({
   const renderListItems = (list: string[]) => {
     return (
       <>
-        {list.map(listEl => (
-          <li>{listEl}</li>
+        {list.map((listEl, i) => (
+          <li key={i}>{listEl}</li>
         ))}
       </>
     )
