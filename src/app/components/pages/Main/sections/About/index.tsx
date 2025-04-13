@@ -15,7 +15,7 @@ const About = () => {
         <div className={styles["about-img-wrapper"]}>
           <PhotoFrame>
             <Image
-              src="/images/hero-photo.jpg"
+              src="/images/about-photo.jpg"
               width={470}
               height={470}
               alt="Picture of the author"

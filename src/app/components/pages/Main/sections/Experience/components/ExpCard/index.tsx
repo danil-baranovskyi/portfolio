@@ -7,7 +7,7 @@ export interface ExperienceDescriptionDto {
     title: string,
     desc: string
   },
-  responsobilites: {
+  responsibilities: {
     title: string,
     list?: string[],
     frontEnd?: {
@@ -15,6 +15,10 @@ export interface ExperienceDescriptionDto {
       list: string[],
     },
     backEnd?: {
+      title: string,
+      list: string[]
+    },
+    fullstack?: {
       title: string,
       list: string[]
     },
@@ -27,7 +31,7 @@ export interface ExperienceDescriptionDto {
       list: string[]
     }
   },
-  projects: {
+  projects?: {
     title: string,
     list: string[]
   },
@@ -46,7 +50,7 @@ export interface ExperienceData {
   className?: string;
 }
 
-interface IExpCardProps extends ExperienceData { };
+interface IExpCardProps extends ExperienceData { }
 
 const ExpCard: FC<IExpCardProps> = ({
   title,
@@ -89,47 +93,56 @@ const ExpCard: FC<IExpCardProps> = ({
           <h4 className={styles["about-company-header"]}>{description.company.title}</h4>
           <p className={styles["about-company-text"]}>{description.company.desc}</p>
           <div className={classNames(styles["responsobilities"], styles["exp-block-wrapper"])}>
-            <h5>{description.responsobilites.title}</h5>
+            <h5>{description.responsibilities.title}</h5>
             <ul>
-              {description.responsobilites.list && 
-                renderListItems(description.responsobilites.list)
+              {description.responsibilities.list && 
+                renderListItems(description.responsibilities.list)
               }
-                {description.responsobilites.frontEnd && <>
-                  <li><h6>{description.responsobilites.frontEnd.title}</h6>
+                {description.responsibilities.frontEnd && <>
+                  <li><h6>{description.responsibilities.frontEnd.title}</h6>
                     <ul>
-                      {renderListItems(description.responsobilites.frontEnd.list)}
+                      {renderListItems(description.responsibilities.frontEnd.list)}
                     </ul>
                   </li></>
                 }
-                {description.responsobilites.backEnd &&
-                  <li><h6>{description.responsobilites.backEnd.title}</h6>
+                {description.responsibilities.backEnd &&
+                  <li><h6>{description.responsibilities.backEnd.title}</h6>
                     <ul>
-                      {renderListItems(description.responsobilites.backEnd.list)}
+                      {renderListItems(description.responsibilities.backEnd.list)}
                     </ul>
                   </li>
                 }
-                {description.responsobilites.project &&
-                  <li><h6>{description.responsobilites.project.title}</h6>
+                {description.responsibilities.fullstack &&
+                    <li><h6>{description.responsibilities.fullstack.title}</h6>
+                      <ul>
+                        {renderListItems(description.responsibilities.fullstack.list)}
+                      </ul>
+                    </li>
+                }
+                {description.responsibilities.project &&
+                  <li><h6>{description.responsibilities.project.title}</h6>
                     <ul>
-                      {renderListItems(description.responsobilites.project.list)}
+                      {renderListItems(description.responsibilities.project.list)}
                     </ul>
                   </li>
                 }
-                {description.responsobilites.accessibility &&
-                  <li><h6>{description.responsobilites.accessibility.title}</h6>
+                {description.responsibilities.accessibility &&
+                  <li><h6>{description.responsibilities.accessibility.title}</h6>
                     <ul>
-                      {renderListItems(description.responsobilites.accessibility.list)}
+                      {renderListItems(description.responsibilities.accessibility.list)}
                     </ul>
                   </li>
                 }
               </ul>
           </div>
-          <div className={classNames(styles["projects"], styles["exp-block-wrapper"])}>
-            <h5>{description.projects.title}</h5>
-            <ul>
-              {renderListItems(description.projects.list)}
-            </ul>
-          </div>
+          {description.projects &&
+            <div className={classNames(styles["projects"], styles["exp-block-wrapper"])}>
+              <h5>{description.projects.title}</h5>
+              <ul>
+                {renderListItems(description.projects.list)}
+              </ul>
+            </div>
+          }
           <div className={classNames(styles["skills"], styles["exp-block-wrapper"])}>
             <h5>{description.skills.title}</h5>
             <ul>

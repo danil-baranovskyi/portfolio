@@ -24,6 +24,13 @@ p {
   }
 }
 
+.exp-card-company-logo--levelaccess {
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 12px;
@@ -31,11 +38,11 @@ p {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: transparent; 
+  background: transparent;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb--color); 
+  background: var(--scrollbar-thumb--color);
   border: 3px solid;
 }

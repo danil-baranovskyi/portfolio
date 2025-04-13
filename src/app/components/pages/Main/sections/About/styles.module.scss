@@ -62,6 +62,20 @@
 
     &-img-wrapper {
       padding: 0 20px;
+
+      div img {
+        width: revert-layer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about {
+    &-img-wrapper {
+      div img {
+        width: 100%;
+      }
     }
   }
 }

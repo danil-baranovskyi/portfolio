@@ -38,7 +38,7 @@
             "title": "About DevIT.group:",
             "desc": "DevIT.group is a resilient Ukrainian IT company established in 2013. They provide IT services and business solutions, create their own products, and develop websites, web applications, mobile and TV apps for a global clientage."
           },
-          "responsobilites": {
+          "responsibilities": {
             "title": "Key Responsibilities:",
             "list": "[\"Gained valuable experience through training sessions and workshops relevant to full-stack development.\",\"Expanded my skillset by actively learning new technologies.\", \"Contributed to team discussions and participated in brainstorming sessions.\"]"
           },
@@ -60,7 +60,7 @@
             "title": "About DevIT.software:",
             "desc": "DevIT.software is a team within DevIT.group specializing in building applications for the Shopify platform and developing their own innovative products."
           },
-          "responsobilites": {
+          "responsibilities": {
             "title": "Key Responsibilities:",
             "frontEnd": {
               "title": "Front-End Development:",
@@ -87,13 +87,13 @@
       },
       "userwayFrontEnd": {
         "position": "Front-End Developer",
-        "workPeriod": "Dec 2023 - Current",
+        "workPeriod": "Dec 2023 - Dec 2024",
         "desc": {
           "company": {
             "title": "About Userway:",
             "desc": "Userway is a leading accessibility company that empowers businesses to create inclusive digital experiences for people with disabilities."
           },
-          "responsobilites": {
+          "responsibilities": {
             "title": "Key Responsibilities:",
             "frontEnd": {
               "title": "Front-End Development:",
@@ -111,6 +111,27 @@
           "skills": {
             "title": "Key Skills and Technologies:",
             "list": "[\"Angular\",\"RxJS\",\"MatUI\",\"Akita store\",\"Ngrx store\",\"Signals\",\"WCAG 2.1 AA and 2.2 AA\"]"
+          }
+        }
+      },
+      "laFullStack": {
+        "position": "Full-Stack Engineer",
+        "workPeriod": "Jan 2025 - Current",
+        "desc": {
+          "company": {
+            "title": "About LevelAccess:",
+            "desc": "The industry leader in digital accessibility solutions, helping organizations comply with ADA and WCAG standards. Their SaaS platform identifies, remediates, and monitors accessibility barriers across web and mobile applications. Trusted by Fortune 500 companies to create inclusive digital experiences."
+          },
+          "responsibilities": {
+            "title": "Key Responsibilities:",
+            "fullstack": {
+              "title": "Full-Stack Development:",
+              "list": "[\"Develop fronted> using Angular interfaces as my primary focus.\",\"Contribute to backend systems using Docker, NestJS, and MySQL.\",\"Actively participate in code reviews, offering constructive feedback and architectural improvements.\",\"Audited Amplitude implementation to understand event tracking.\"]"
+            }
+          },
+          "skills": {
+            "title": "Key Skills and Technologies:",
+            "list": "[\"Angular\",\"NestJS\",\"Amplitude\",\"Playwright\",\"Docker\",\"Code Review\",\"Team Grooming and Planning\"]"
           }
         }
       }
